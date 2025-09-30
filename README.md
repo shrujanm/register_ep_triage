@@ -172,4 +172,3 @@ INFO:     ::1:61294 - "POST /introspect HTTP/1.1" 200 OK
   <img width="1509" height="791" alt="image" src="https://github.com/user-attachments/assets/8566fa45-33ea-4654-9ad1-bd6d8d49ce62" />
 
 - The question now is - Can we change the behaviour of VS Code client to not consider its existing Client ID it has for connecting with any Custom MCP Servers and Custom Oauth server.  
-
