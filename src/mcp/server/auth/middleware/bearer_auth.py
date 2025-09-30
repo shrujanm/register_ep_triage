@@ -116,7 +116,6 @@ class RequireAuthMiddleware:
                     (b"content-type", b"application/json"),
                     (b"content-length", str(len(body_bytes)).encode()),
                     (b"www-authenticate", www_authenticate.encode()),
-                    (b"WWW-Authenticate1", www_authenticate.encode()),
                 ],
             }
         )
