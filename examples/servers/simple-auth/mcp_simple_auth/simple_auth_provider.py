@@ -86,7 +86,9 @@ class SimpleOAuthProvider(OAuthAuthorizationServerProvider[AuthorizationCode, Re
                     "http://localhost:33418/",
                     "http://127.0.0.1:33418/callback/",
                     "http://localhost:33418/callback/",
-                    "https://vscode.dev/redirect"
+                    "https://vscode.dev/redirect",
+                    "http://localhost:6274/oauth/callback/debug",
+                    "http://localhost:6274/oauth/callback"
                 ],
                 grant_types=["authorization_code"],
                 response_types=["code"],
