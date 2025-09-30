@@ -6,8 +6,8 @@ This example demonstrates OAuth 2.0 authentication with the Model Context Protoc
 
 ## Running the Servers
 
-### Step 0: Clone the repo in the VS Code
-- Save the workspace.
+### Step 0: Prep
+- Clone the repo in VS Code workspace
 
 ### Step 1: Start Authorization Server
 
